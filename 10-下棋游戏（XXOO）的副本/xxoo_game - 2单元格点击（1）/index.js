@@ -11,7 +11,7 @@ cells.forEach(function (item) {
     var cell = item;
     // console.log(item)
     cell.addEventListener('click', function (event) {
-        // console.log('click', event.target);
+        // console.log('click', event.target)
         var target = event.target;
         target.classList.add('x');
     });
